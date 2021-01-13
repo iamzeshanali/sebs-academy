@@ -3,7 +3,7 @@
         <v-carousel
             continuous
             cycle
-            
+
         >
             <v-carousel-item
             v-for="(item,i) in images"
@@ -23,14 +23,14 @@
                     justify="center"
                     >
                     <div class="display-3" style="margin: 0 auto;">
-                        
+
                         <h2 align="center" class="red--text text--darken-4">
                             SEBS GALLERY
                         </h2>
                         <h4>
                             Speak English Accurately and Rapidly with our Dynamic Interactive Methodology
                         </h4>
-                        
+
                     </div>
                     </v-row>
                 </v-sheet>
@@ -38,7 +38,7 @@
         </v-carousel>
 
         <v-container>
-            
+
             <v-row>
                 <v-col lg="4"
                 v-for="(mg,idx) in images"
@@ -51,8 +51,8 @@
                     height="100%"
                     :src="mg.image"
                     class="grey lighten-2"
-                /> 
-                </div>           
+                />
+                </div>
                 </v-col>
             </v-row>
             <v-row>
@@ -63,22 +63,22 @@
                     height="100%"
                     src="/images/5.jpg"
                     class="grey lighten-2"
-                /> 
-                </div> 
+                />
+                </div>
                 </v-col>
             </v-row>
             <!-- Certification bar Sticky   -->
         <div class="sticky" style="z-index:90">
           <v-hover v-slot="{ hover }">
           <v-card flat
-          
+
           :elevation="hover ? 16 : 2"
             :class="{ 'on-hover': hover }"
           >
             <v-row>
                       <v-col cols="6" align="center">
                           <v-img
-                          contain    
+                          contain
                           width="50%"
                           height="100%"
                           src="/images/apply-job-hunting-resume.jpg">
@@ -89,7 +89,7 @@
                       <h3 class="hStyle font-weight-light red--text text--darken-3 mb-2"><b>
                           Certify Your English Proficiency with SEBS
                       </b>
-                      </h3> 
+                      </h3>
                       <v-btn
                                   @click="$router.push('testimonials')"
                               outlined
@@ -105,7 +105,7 @@
                                   <b class="hStyle">
                                   Register Yourself
                                   </b>
-                                  
+
                       </v-btn>
                       </v-card>
                       </v-col>
@@ -149,10 +149,10 @@ export default {
             {  image: "/images/Q158.jpg" },
             {  image: "/images/d34.jpg" },
             {  image: "/images/d120.jpg" },
-            {  image: "/images/0392.jpg" }
+            {  image: "/images/1212.jpg" }
 
 
-            
+
         ],
          colors: [
           'indigo',
@@ -169,6 +169,6 @@ export default {
           'Fifth',
         ],
     }),
-     
+
 }
 </script>

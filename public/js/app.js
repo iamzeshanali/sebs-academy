@@ -6313,7 +6313,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         image: "/images/d120.jpg"
       }, {
-        image: "/images/0392.jpg"
+        image: "/images/1212.jpg"
       }],
       colors: ['indigo', 'warning', 'pink darken-2', 'red lighten-1', 'deep-purple accent-4'],
       slides: ['First', 'Second', 'Third', 'Fourth', 'Fifth']
@@ -7320,11 +7320,11 @@ __webpack_require__.r(__webpack_exports__);
         content: "\u0633\u06CC\u062F \u0627\u0639\u062C\u0627 \u0630 \u0628\u062E\u0627\u0631\u06CC \u0635\u0627\u062D\u0628 \u06A9\u0627  \u0679\u0631\u06CC\u0646\u0646\u06AF \u0633\u06CC\u0634\u0646 \u0627\u0646\u062A\u06C1\u0627\u0626\u06CC \u0645\u0641\u06CC\u062F \u062A\u06BE\u0627\u06D4 \u0633\u0648\u0686 \u0645\u06CC\u06BA \u0628\u0691\u06CC \u062A\u0628\u062F\u06CC\u0644\u06CC \u06A9\u0627 \u0628\u0627\u0639\u062B \u0628\u0646\u0627\u06D4 "
       }],
       gallery: [{
-        image: "/images/IMG_9273.JPG"
+        image: "/images/1212.JPG"
       }, {
-        image: "/images/DSC_0400.JPG"
+        image: "/images/2.JPG"
       }, {
-        image: "/images/DSC_0392.JPG"
+        image: "/images/0392.JPG"
       }, {
         image: "/images/IMG_9251.jpg"
       }, {

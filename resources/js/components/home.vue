@@ -1008,11 +1008,11 @@ export default {
             },
         ],
         gallery: [
-            {image: "/images/IMG_9273.JPG"},
+            {image: "/images/1212.JPG"},
 
-            {image: "/images/DSC_0400.JPG"},
+            {image: "/images/2.JPG"},
 
-            {image: "/images/DSC_0392.JPG"},
+            {image: "/images/0392.JPG"},
             {image: "/images/IMG_9251.jpg"},
             {image: "/images/e1.jpg"},
 
@@ -1046,7 +1046,7 @@ export default {
 
     onScroll (e) {
        this.windowTop = e.target.documentElement.scrollTop;
-       
+
       if(this.windowTop > this.divTop){
               this.minifyWidth=true;
       }
