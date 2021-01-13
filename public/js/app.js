@@ -7359,8 +7359,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     onScroll: function onScroll(e) {
       this.windowTop = e.target.documentElement.scrollTop;
-      console.log(this.windowTop);
-      console.log(window.innerWidth);
 
       if (this.windowTop > this.divTop) {
         this.minifyWidth = true;

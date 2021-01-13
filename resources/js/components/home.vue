@@ -1041,13 +1041,12 @@ export default {
               this.divTop = divOffset.top + 338;
 
           }
-          
+
       },
 
     onScroll (e) {
        this.windowTop = e.target.documentElement.scrollTop;
-        console.log(this.windowTop);
-        console.log(window.innerWidth);
+       
       if(this.windowTop > this.divTop){
               this.minifyWidth=true;
       }
